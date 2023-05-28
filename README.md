@@ -14,12 +14,12 @@ This is a simple Docker project that demonstrates running a Java "Hello, World!"
 2. Build the Docker image:
 
    
-    `docker build -t hello-world-java . `
+    `docker build -t demo . `
    
 
 3. Run the Docker container:
 
-     `docker run hello-world-java`
+     `docker run demo`
 
 
    The Java program inside the container will execute and print "Hello, World!" in the console.
@@ -30,5 +30,5 @@ The Dockerfile in this project contains the instructions for building the Docker
 
 ## Java Source Code
 
-The `Hello.java` file contains a simple Java program that prints "Hello, World!" to the console. The Docker image is built and executed based on this source code.
+The `demo.java` file contains a simple Java program that prints "Hello, World!" to the console. The Docker image is built and executed based on this source code.
 
